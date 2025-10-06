@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: #05e814;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    padding-inline: 4rem;
+    color: black;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+textarea{
+    background-color: #f9f9f9;
+    outline: none;
+    resize: none;
+    width: 100%;
+    border: 1px solid #c7c7c7;
+    padding: 1rem;
+    height: 300px;
+    font-size: 1.25rem;
+}
+.super-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 1.5rem;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.header-container img{
+    max-width: 120px;
+    width: 100%;
+    height: auto;
+}
+.header-container div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+hr{
+    border: 1px solid #c7c7c7;
+}
+.container{
+    display: flex;
+    gap: 1rem;
+}
+.container img{
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    gap: 1rem;
+}
+
+.labelinput{
+    display: flex;
+    justify-content: space-between;
+}
+
+.labelbutton input{
+    border: 1px solid #c7c7c7;
+    outline: none;
+    max-width: 200px;
+    width: 100%;
+}
+
+.labelbutton{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.supersub-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+button {
+    background: white;
+    color: #04f130;
+    border: 2px solid #04f130;
+    cursor: pointer;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    border-radius: 10px;
+    font-weight: 1000;
+    outline: none;
+}
+
+select {
+    background: white;
+    color: #04f130;
+    border: 2px solid #04f130;
+    cursor: pointer;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    border-radius: 10px;
+    font-weight: 1000;
+    outline: none;
+}
+
+input {
+    background: white;
+    color: #04f130;
+    border: 2px solid #04f130;
+    cursor: pointer;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    border-radius: 10px;
+    font-weight: 1000;
+    outline: none;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </link>
+</head>
+
+<body>
+    <nav>
+        <p>68070155</p>
+        <h2>ITF Website</h2>
+        <p>Week14</p>
+    </nav>
+    <div class="super-container">
+        <div class="header-container">
+            <img src="Cool.png" alt="">
+            <div>
+                <h1>ITF Simple Bank</h1>
+                <p>Welcome to my ITF HTML + CSS + JS website!</p>
+            </div>
+        </div>
+        <hr>
+        <textarea id="textarea" disabled></textarea>
+        <div class="container">
+            <div class="child">
+                <h1>Account Overview</h1>
+                <div class="box">
+                    <img src="user.png" alt="">
+                    <div class="sub-container">
+                        <h1>Account Information</h1>
+                        <p>Name : Rangsiman Sohmiloh</p>
+                        <p>Typing : Saving Account</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="briefcase.png" alt="">
+                    <div class="sub-container">
+                        <h1>Balance Information</h1>
+                        <div class="labelinput">
+                            <label>Currrent Acount Balance:</label>
+                            <input type="number" id="current-account"></input>
+                        </div>
+                        <div class="labelinput">
+                            <label>Currrent Cash Balance:</label>
+                            <input type="number" id="current-cash"></input>
+                        </div>
+                        <div class="labelbutton">
+                            <div>
+                                <button onclick="handleBalanceChange()">Change</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="toolbox.png" alt="">
+                    <div class="sub-container">
+                        <h1>Bank Operation</h1>
+                        <div class="supersub-container">
+                            <select id="bank-select">
+                                <option>Deposit</option>
+                                <option>Withdraw</option>
+                            </select>
+                            <input type="number" id="bank-quantity"></input>
+                        </div>
+                        <div>
+                            <button onclick="handleOperation()">Proceed</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="child">
+                <h1>Financial Tools</h1>
+                <div class="box">
+                    <img src="coins.png" alt="">
+                    <div class="sub-container">
+                        <h1>Bank Operation</h1>
+                        <div class="labelinput">
+                            <label>Input Balance :</label>
+                            <input type="number"></input>
+                        </div>
+                        <div class="labelinput">
+                            <label>Output Balance :</label>
+                            <input type="number" disabled></input>
+                        </div>
+                        <div class="">
+                            <label>Input currency: </label>
+                            <select>
+                                <option>USD</option>
+                                <option>THB</option>
+                            </select>
+                            <button>Convert</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
